@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gautham S - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Add custom CSS here if needed */
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Navbar -->
+    <header class="bg-blue-500 text-white p-4">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold">Gautham S</a>
+            <ul class="flex space-x-6">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+
+
+
+    <!-- Hero Section -->
+    <section id="hero" class="bg-blue-900 text-white h-screen flex flex-col justify-center items-center">
+        <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mb-4">Hello, I'm Gautham S</h1>
+        <p class="text-lg sm:text-xl md:text-2xl mb-6">Java Enthusiast | HTML Developer | JavaScript Enthusiast</p>
+        <p class="text-lg sm:text-xl md:text-2xl">Welcome to my portfolio website</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-12 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+            <p class="text-lg mb-6">"I'm Gautham S, a dedicated developer with a passion for creating innovative solutions. With a strong background in Java and HTML, along with a keen interest in JavaScript, I thrive on turning ideas into reality. I take pride in crafting clean and efficient code to build web applications that engage and delight users. Let's collaborate on exciting projects and bring your ideas to life!"</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-100 py-12 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold mb-4">Projects</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-xl font-semibold mb-2">Project 1</h3>
+                    <p class="text-gray-600">A Simple calculator.</p>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-xl font-semibold mb-2">Project 2</h3>
+                    <p class="text-gray-600">Real-time weather forcasting website.</p>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-xl font-semibold mb-2">Project 3</h3>
+                    <p class="text-gray-600">Tourism application.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container mx-auto mt-8 p-4 bg-white">
+        <h2 class="text-2xl font-bold">Sign In</h2>
+        <form class="mt-4" id="signInForm">
+            <div class="mb-4">
+                <label for="firstName" class="block text-gray-700 text-sm font-bold mb-2">First Name</label>
+                <input type="text" id="firstName" name="firstName" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="lastName" class="block text-gray-700 text-sm font-bold mb-2">Last Name</label>
+                <input type="text" id="lastName" name="lastName" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="phoneNumber" class="block text-gray-700 text-sm font-bold mb-2">Phone Number</label>
+                <input type="text" id="phoneNumber" name="phoneNumber" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+                <input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="gender" class="block text-gray-700 text-sm font-bold mb-2">Gender</label>
+                <select id="gender" name="gender" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label for="age" class="block text-gray-700 text-sm font-bold mb-2">Age</label>
+                <input type="number" id="age" name="age" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <!-- Add the remaining fields here -->
+            <div class="mb-4">
+                <label for="address" class="block text-gray-700 text-sm font-bold mb-2">Address</label>
+                <input type="text" id="address" name="address" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="city" class="block text-gray-700 text-sm font-bold mb-2">City</label>
+                <input type="text" id="city" name="city" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="state" class="block text-gray-700 text-sm font-bold mb-2">State</label>
+                <input type="text" id="state" name="state" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="zipCode" class="block text-gray-700 text-sm font-bold mb-2">Zip Code</label>
+                <input type="text" id="zipCode" name="zipCode" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="education" class="block text-gray-700 text-sm font-bold mb-2">Education</label>
+                <input type="text" id="education" name="education" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="occupation" class="block text-gray-700 text-sm font-bold mb-2">Occupation</label>
+                <input type="text" id="occupation" name="occupation" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="interests" class="block text-gray-700 text-sm font-bold mb-2">Interests</label>
+                <input type="text" id="interests" name="interests" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="password" class="block text-gray-700 text-sm font-bold mb-2">Password</label>
+                <input type="password" id="password" name="password" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Sign In</button>
+            </div>
+        </form>
+    </section>
+    
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-blue-900 text-white py-12 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold mb-4">Contact Me</h2>
+            <p class="text-lg mb-6">Let's get in touch! You can reach me at:</p>
+            <p class="text-lg">Email: gautham13055@gmail.com.com</p>
+            <p class="text-lg">LinkedIn: <a href="https://www.linkedin.com/in/gautham-s-206350202/" class="underline">linkedin.com/in/yourprofile</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-500 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2023 Gautham S</p>
+        </div>
+    </footer>
+</body>
+</html>
